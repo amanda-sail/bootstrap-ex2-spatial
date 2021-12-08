@@ -1,0 +1,113 @@
+@mixin titles
+    text:
+            align: center
+            color: white
+            transform: uppercase 
+            decoration: none
+    
+    
+*
+    margin: 0
+header
+    background: linear-gradient(#00000050, #00000050), url("../img/banner.jpg")
+    .banner
+        @include titles
+        padding-top: 100px
+        padding-bottom: 170px
+        h1
+            color: white
+            padding-bottom: 20px
+        h6
+            color: gray 
+            width: 40%
+            margin: auto
+            padding-bottom: 40px
+        a
+            text-decoration: none
+            color: white
+            padding: 12px 30px
+            background-color: #f32853
+            font-weight: bold
+            border-radius: 3px
+            font-size: 15px
+article
+    margin: 60px 20%
+    .col
+        h2
+            color: black
+        h6
+            font-size: 20px
+            color: lightgrey 
+            font-weight: lighter
+        p
+            font-size: 10px
+            line-height: 20px
+.cards
+    background-color: #F6F6F6
+    .container
+        padding-top: 50px
+        padding-bottom: 20px
+        .card
+            padding: 0
+            .card-text
+                text-align: center
+                padding: 10px
+        button
+            padding: 10px 30px
+            &:nth-of-type(1)   
+                background-color: #f32853
+.bottom
+    @include titles
+    background-image: url(../img/banner.jpg) 
+    background-position: center
+    padding-top: 60px 
+    padding-bottom: 80px
+    float: bottom
+    h1
+        color: white
+        padding-bottom: 10px
+        font-size: 35px
+    h6
+        color: gray 
+        width: 40%
+        margin: auto
+        padding-bottom: 45px
+    a
+        text-decoration: none
+        color: white
+        padding: 12px 30px
+        background-color: #f32853
+        font-weight: bold
+        border-radius: 3px
+        font-size: 15px      
+.container
+    h2
+        color: black
+        padding-bottom: 10px
+    h4
+        color: lightgray
+        font-size: 18px
+        font-weight: lighter
+    h6
+        font-size: 14px
+        text-transform: uppercase
+    h5
+        font-size: 10px
+        color: lightgray
+        text-transform: uppercase
+    p
+        font-size: 12px
+        color: gray    
+    
+footer
+    text-align: center
+    .icons
+        padding: 80px 0 30px
+        img
+            filter: invert(60%)
+            width: 20px 
+            margin: 0 20px
+    p
+        font-size: 12px
+        color: grey
+        padding-bottom: 70px

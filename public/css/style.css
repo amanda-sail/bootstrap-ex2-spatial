@@ -1,3 +1,145 @@
+* {
+  margin: 0;
+}
 
+header {
+  background: linear-gradient(#00000050, #00000050), url("../img/banner.jpg");
+}
+header .banner {
+  text-align: center;
+  text-color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 100px;
+  padding-bottom: 170px;
+}
+header .banner h1 {
+  color: white;
+  padding-bottom: 20px;
+}
+header .banner h6 {
+  color: gray;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+header .banner a {
+  text-decoration: none;
+  color: white;
+  padding: 12px 30px;
+  background-color: #f32853;
+  font-weight: bold;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+article {
+  margin: 60px 20%;
+}
+article .col h2 {
+  color: black;
+}
+article .col h6 {
+  font-size: 20px;
+  color: lightgrey;
+  font-weight: lighter;
+}
+article .col p {
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.cards {
+  background-color: #F6F6F6;
+}
+.cards .container {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.cards .container .card {
+  padding: 0;
+}
+.cards .container .card .card-text {
+  text-align: center;
+  padding: 10px;
+}
+.cards .container button {
+  padding: 10px 30px;
+}
+.cards .container button:nth-of-type(1) {
+  background-color: #f32853;
+}
+
+.bottom {
+  text-align: center;
+  text-color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  float: bottom;
+}
+.bottom h1 {
+  color: white;
+  padding-bottom: 10px;
+  font-size: 35px;
+}
+.bottom h6 {
+  color: gray;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 45px;
+}
+.bottom a {
+  text-decoration: none;
+  color: white;
+  padding: 12px 30px;
+  background-color: #f32853;
+  font-weight: bold;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.container h2 {
+  color: black;
+  padding-bottom: 10px;
+}
+.container h4 {
+  color: lightgray;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.container h6 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.container h5 {
+  font-size: 10px;
+  color: lightgray;
+  text-transform: uppercase;
+}
+.container p {
+  font-size: 12px;
+  color: gray;
+}
+
+footer {
+  text-align: center;
+}
+footer .icons {
+  padding: 80px 0 30px;
+}
+footer .icons img {
+  filter: invert(60%);
+  width: 20px;
+  margin: 0 20px;
+}
+footer p {
+  font-size: 12px;
+  color: grey;
+  padding-bottom: 70px;
+}
 
 /*# sourceMappingURL=style.css.map */

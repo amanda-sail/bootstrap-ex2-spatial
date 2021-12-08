@@ -12,37 +12,41 @@
 </head>
 
 <body>
-    <!-- Navbar du Bootstrap -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-*">
+        <!-- Navbar du Bootstrap -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-* text-uppercase">
+            <!-- Nav Responsive -->
             <div class="container-fluid">
-            <a class="navbar-brand" href="#"><b>SPATIAL</b> BY TEMPLATED</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand fs-6 p-4" href="#"><b>SPATIAL</b> BY TEMPLATED</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                </button>
+            </div>
+            <!-- Nav Links -->
+            <div class="collapse navbar-collapse justify-content-end fs-6 p-3" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Generic</a>
-                <a class="nav-link" href="#">Elements</a>
+                    <a class="nav-link p-3 active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link p-3" href="#">Generic</a>
+                    <a class="nav-link p-3" href="#">Elements</a>
                 </div>
             </div>
-            </div>
         </nav>
-
+        <!-- Banner -->
         <div class="banner">
             <h1>Spatial</h1>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit, facilis amet quod odio.</h3>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit, facilis amet quod odio.</h6>
             <a id="get" href="">Get Started</a>
         </div>
     </header>
 
     <article>
-        <div class="row align-items-center">
+        <div class="row d-sm-flex flex-sm-row align-items-start text-uppercase text-secondary gap-5">
+            <!-- Article Header -->
             <div class="col">
                 <h2>Maecenas Luctus Lectus</h2>
-                <h3>Perspiciatis doloremque recusandae dolor</h3>
+                <h6>Perspiciatis doloremque recusandae dolor</h6>
             </div>
+            <!-- Article Text -->
             <div class="col">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum facere corporis omnis doloribus? Non quod eos autem blanditiis illum ipsum rerum facere praesentium, culpa alias? Accusamus at doloribus error ab.</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In distinctio quas perferendis fuga debitis nostrum odio eos animi earum numquam. Veritatis, facere error! Ea eligendi eveniet voluptate quasi numquam iusto.</p>
@@ -51,103 +55,171 @@
     </article>
 
     <section class="cards">
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-md-auto">
+        <div class="container text-uppercase">
+            <!-- cards header -->
+            <div class="row justify-content-center">
+                <div class="col-auto fs-2 fw-bold p-2">
                   Fusce Ultrices Fringilla
                 </div>
             </div>
-            <div class="row justify-content-md-center">
-                <div class="col-md-auto">
+            <!-- cards sub-header -->
+            <div class="row justify-content-center text-secondary">
+                <div class="col-auto pb-5">
                   Maecenas Vitae Tellus Feugiat Eleifend
                 </div>
             </div>
-            <div class="row">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+            <!-- cards -->
+            <div class="row justify-content-center gap-4">
+                <!-- left card -->
+                <div class="card" style="width: 28rem;">
+                    <img src="./public/img/pic02.jpg" class="card-img-top" alt="La mer">
                     <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <p class="card-text fs-6 fw-bold text-uppercase">Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
-                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <!-- right card -->
+                 <div class="card" style="width: 28rem;">
+                    <img src="./public/img/pic03.jpg" class="card-img-top" alt="La forêt">
                     <div class="card-body">
-                        <p class="card-text">Illum, maiores tempora cupid?</p>
+                        <p class="card-text fs-6 fw-bold text-uppercase">Illum, maiores tempora cupid?</p>
                     </div>
                 </div>
             </div>
-            <div class="d-grid gap-2 d-md-block">
-                <button class="btn btn-primary" type="button">Nulla Luctus</button>
-                <button class="btn btn-primary" type="button">Sed Vulputate</button>
-              </div>
-          </div>
+            <!-- buttons -->
+            <div class="text-center p-5">
+                <button class="btn btn-primary text-uppercase border-0" type="button">Nulla Luctus</button>
+                <button class="btn btn-primary text-uppercase border-0 bg-dark" type="button">Sed Vulputate</button>
+            </div>
+        </div>
     </section>
 
-    <div class="container" style="width: 60%">
+    <div class="container" style="width: 80%">
+        <!-- Header -->
+        <div class="row text-uppercase text-secondary">
+            <div class="col p-4">
+                <h2>Mauris Vulputate Dolor</h2>
+                <h4>Feugiat Sed Lorem Ipsum Magna</h4>
+            </div>
+        </div>
+        <!-- Tags/Boxes -->
         <div class="container p-4">
-            <div class="row">
-                <div class="col-md-6 my-auto">
-                    <h2>For those about to rock...</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis totam recusandae et iusto delectus ad perferendis, reprehenderit dolores hic eveniet.</p>
+            <div class="row justify-content-between">
+                <!-- Tags 1 -->
+                <div class="col-12 col-md-6">
+                    <div class="row align-items-center">
+                        <!-- Text -->
+                        <div class="col-12 col-md-8 text-md-end">
+                            <h6>Lorem Ipsum</h6>
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis totam recusandae et iusto delectus ad perferendis, reprehenderit dolores hic eveniet.</p>
+                        </div>
+                        <!-- Image -->
+                        <div class="col-12 col-md-4 text-center">
+                            <img src="./public/img/pic04.jpg" class="rounded-circle img-thumbnail border-5 p-0" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="./public/img/01.jpg" class="rounded-circle float-end img-thumbnail border-0" alt="">
-                </div>
+                <!-- Tags 2 -->
+                <div class="col-12 col-md-6">
+                    <div class="row align-items-center flex-column-reverse flex-md-row">
+                        <!-- Image -->
+                        <div class="col-12 col-md-4 text-center">
+                            <img src="./public/img/pic05.jpg" class="rounded-circle img-thumbnail border-5 p-0" alt="">
+                        </div>
+                        <!-- Text -->
+                        <div class="col-12 col-md-8">
+                            <h6>Lorem Ipsum</h6>
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, ipsam quidem cumque ipsa in aspernatur! Beatae nihil similique esse animi.</p>
+                        </div>
+                    </div>
+                </div>    
             </div>
         </div>
         <div class="container p-4">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="./public/img/02.jpg" class="rounded-circle float-start img-thumbnail border-0" alt="">
+            <div class="row justify-content-between">
+                <!-- Tags 1 -->
+                <div class="col-12 col-md-6">
+                    <div class="row align-items-center">
+                        <!-- Text -->
+                        <div class="col-12 col-md-8 text-md-end">
+                            <h6>Lorem Ipsum</h6>
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis totam recusandae et iusto delectus ad perferendis, reprehenderit dolores hic eveniet.</p>
+                        </div>
+                        <!-- Image -->
+                        <div class="col-12 col-md-4 text-center">
+                            <img src="./public/img/pic06.jpg" class="rounded-circle img-thumbnail border-5 p-0" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 my-auto">
-                    <h2>We salute you!</h3>
+                <!-- Tags 2 -->
+                <div class="col-12 col-md-6">
+                    <div class="row align-items-center flex-column-reverse flex-md-row">
+                        <!-- Image -->
+                        <div class="col-12 col-md-4 text-center">
+                            <img src="./public/img/pic07.jpg" class="rounded-circle img-thumbnail border-5 p-0" alt="">
+                        </div>
+                        <!-- Text -->
+                        <div class="col-12 col-md-8">
+                            <h6>Lorem Ipsum</h6>
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, ipsam quidem cumque ipsa in aspernatur! Beatae nihil similique esse animi.</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        
+        <!-- Cards I am trying to mess with -->
+        <!--  my-auto removed from text columns -->
+        <!-- <div class="container p-4 justify-content-between align-items-center">
+            <div class="row">
+                
+                <div class="col-12 col-md-4 text-md-end">
+                    <h6>Lorem Ipsum</h6>
+                    <h5>Lorem ipsum dolor sit amet.</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, ipsam quidem cumque ipsa in aspernatur! Beatae nihil similique esse animi.</p>
+                </div>
+
+                <div class="col-12 col-md-2 text-center">
+                    <img src="./public/img/pic06.jpg" class="rounded-circle img-thumbnail border-5 p-0" alt="">
+                </div>
+            </div>
+
+            <div class="row flex-column-reverse flex-md-row">
+
+                <div class="col-12 col-md-2 text-center">
+                    <img src="./public/img/pic07.jpg" class="rounded-circle img-thumbnail border-5 p-0" alt="">
+                </div>
+                
+                <div class="col-12 col-md-4">
+                    <h6>Lorem Ipsum</h6>
+                    <h5>Lorem ipsum dolor sit amet.</h5>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, ipsam quidem cumque ipsa in aspernatur! Beatae nihil similique esse animi.</p>
                 </div>
             </div>
-        </div>
-        <div class="container p-4">
-            <div class="row">
-                <div class="col-md-6 my-auto">
-                    <h2>Let there be rock!</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cum voluptatem enim, quos molestias voluptatibus dignissimos perspiciatis atque qui consequuntur!</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="./public/img/03.jpg" class="rounded-circle mw-100 float-end" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="container p-4">
-            <div class="row">
-                <div class="col-md-6 my-auto">
-                    <h2>Let there be rock!</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cum voluptatem enim, quos molestias voluptatibus dignissimos perspiciatis atque qui consequuntur!</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="./public/img/03.jpg" class="rounded-circle mw-100 float-end" alt="">
-                </div>
-            </div>
-        </div>
+        </div> -->
     </div>
 
-    <div class="banner">
+    <!-- bottom banner -->
+    <div class="bottom">
         <h1>Aenana Elementum Ligula</h1>
-        <h3>Feugiat Sed Lorem Ipsum Magna</h3>
+        <h6>Feugiat Sed Lorem Ipsum Magna</h6>
         <a id="get" href="">Get In Touch</a>
     </div>
 
     <Footer>
         <div class="icons">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="./public/img/icon facebook.png" alt="Aller vers Facebook">
+            <img src="./public/img/icon twitter.png" alt="Aller vers Twitter">
+            <img src="./public/img/icon instagram.png" alt="Aller vers Instagram">
         </div>
-        <p>&copy; Untitled</p>
-        <p>｜</p>
-        <p>Design TEMPLATED</p>
-        <p>｜</p>
-        <p>Images: Unsplash</p>
+        <p>&copy; Untitled ｜ Design TEMPLATED ｜ Images: Unsplash</p>
     </Footer>
+
+    <!-- Script -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
